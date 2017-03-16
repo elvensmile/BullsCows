@@ -1,0 +1,39 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Быки и Коровы - логическая игра</title>
+
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">Ваш браузер <strong>устарел</strong>. Пожалуйста,  <a href="http://browsehappy.com/">обновите его</a>, чтобы получить наилучший опыт .</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <div>
+            <img src="./img/TITLE.png">
+            <div><input type="button" onclick="startGame()" value="Начать игру" id="startButton" class="btn"></div>
+         <div id="game">   <div id="1">
+                <p>Код не содержит повторяющихся цифр</p>
+            </div>
+            <div id="2">Введите код: <input type="number" name="usercod" id="usercode" min="0123" max="9876"><br>
+                <input type="button" onclick="checkUserCode()" value="Отправить" class="btn"><br>
+                <input type="button" onclick="restartGame()" value="Новая игра" class="btn">
+            </div>
+         </div>
+        </div>
+
+
+
+
+        <script src="js/bullscows.js"></script>
+        <script src="js/main.js"></script>
+
+
+    </body>
+</html>
