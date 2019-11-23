@@ -1,0 +1,12 @@
+.input-guess{
+    width: 28px;
+    height: 28px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: ivory;
+    font-size: 36px;
+    padding: 16px;
+    border: none;
+}

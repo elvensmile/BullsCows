@@ -1,0 +1,27 @@
+.square-wrapper {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: inset 1px -1px #40403b;
+}
+
+.guess {
+    background-color: #DAD8A7;
+}
+
+.win {
+    background-color: #7FC7AF;
+}
+
+.lose {
+    background-color: #FF3D7F;
+}
+.square-digit {
+    height: 80%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}

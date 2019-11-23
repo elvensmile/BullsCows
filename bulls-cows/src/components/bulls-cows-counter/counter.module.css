@@ -1,0 +1,30 @@
+.counter-wrapper {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-radius: 5px;
+    background-color: #DAD8A7;
+    box-shadow: inset 1px -1px #40403b;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    margin: 7px;
+    border-radius: 100%;
+    box-shadow: inset 1px -1px #40403b;
+}
+
+.bull {
+    background-color: #3FB8AF;
+}
+
+.cow {
+    background-color: #FF9E9D;
+}
+
+.unguessed {
+    background-color: #999999;
+}
