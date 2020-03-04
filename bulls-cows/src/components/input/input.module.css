@@ -1,5 +1,5 @@
 .input-guess{
-    width: 28px;
+    width: 20px;
     height: 28px;
     display: flex;
     flex-flow: column;
@@ -7,6 +7,6 @@
     border-radius: 5px;
     background-color: ivory;
     font-size: 36px;
-    padding: 16px;
+    padding: 16px 20px 16px 20px;
     border: none;
 }

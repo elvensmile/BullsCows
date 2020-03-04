@@ -1,30 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { Square } from './components/square/square'
-import {Blocks} from "./components/code-blocks/code-blocks";
-import {Counter} from "./components/bulls-cows-counter/counter";
-import {Row} from "./components/row-guess/row";
-import {InputGuess} from "./components/input/input";
+import React, {useContext} from 'react'
+import './App.css'
+import {Header} from "./components/header/header"
+import {Bootstrap} from "./containers/bootstrap/bootstrap"
+import {Button} from "./components/button/button"
+import {store} from "./context/store"
+import {FinalText} from "./components/final-text/final-text"
+import {STAGES} from "./consts/text"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-          <Row><Blocks stage="guess" digits={[1,2,3,4]}/>
-          <Counter bulls={3} cows={0} total={4}/>
-          </Row>
-          <Row><Blocks stage="lose" digits={[1,2,3,4]}/>
-              <Counter bulls={3} cows={0} total={4}/>
-          </Row>
-          <Row><Blocks stage="win" digits={[1,2,3,4]}/>
-              <Counter bulls={3} cows={0} total={4}/>
-          </Row>
-          <Row><InputGuess/><InputGuess/><InputGuess/><InputGuess/><InputGuess/></Row>
+    const gameState = useContext(store)
+    const {dispatch} = gameState
 
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <header className="App-header">
+                <Header/>
+                {gameState.state.stage === (STAGES.win || STAGES.lose) &&
+                <FinalText stage={gameState.state.stage} attempts={gameState.state.attempts}/>}
+                {gameState.state.stage !== STAGES.guess &&
+                <Button onClick={() => {
+                    dispatch({type: STAGES.guess})
+                }}>Отгадать Код</Button>}
+                <Bootstrap/>
+            </header>
+        </div>
+    )
 }
 
-export default App;
+export default App

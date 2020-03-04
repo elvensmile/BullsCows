@@ -1,0 +1,22 @@
+.button {
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border:none;
+    font-size: 36px;
+    outline: none;
+    cursor: pointer;
+    background-color: #DAD8A7;
+}
+
+.button:hover{
+    background-color: #9c9a74;
+ }
+
+.button:active{
+    background-color: #9c8d6d;
+}
