@@ -1,4 +1,4 @@
-import React, {useState, useContext} from 'react'
+import React, {useState, useContext, useEffect} from 'react'
 import style from './field.module.css'
 import {Row} from "../../components/row-guess/row"
 import {InputGuessField} from "../input-guess-field/input-guess-field"
@@ -13,12 +13,16 @@ export const Field = ({code, tries}) => {
     const { dispatch } = globalState;
 
     const [attempts, setAttempt] = useState([])
-    const [currentStage, setStage] = useState(STAGES.guess)
+    const [currentStage, setStage] = useState(globalState.state.stage)
 
     const originalCode = code.join('')
     const checkValue = (userCode) => {
         setAttempt([userCode, ...attempts,])
     }
+    useEffect(() => {
+        setAttempt([])
+        setStage(globalState.state.stage)
+    }, [code])
 
     const userCheckedInput = (initialCode, userCode) => {
         const checkedInput = {}
