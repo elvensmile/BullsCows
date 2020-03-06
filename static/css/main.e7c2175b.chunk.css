@@ -1,0 +1,117 @@
+.counter_counter-wrapper__1LSlV {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border-radius: 5px;
+    background-color: #DAD8A7;
+    box-shadow: inset 1px -1px #40403b;
+}
+
+.counter_circle__35OKw {
+    width: 15px;
+    height: 15px;
+    margin: 7px;
+    border-radius: 100%;
+    box-shadow: inset 1px -1px #40403b;
+}
+
+.counter_bull__3Ko-F {
+    background-color: #3FB8AF;
+}
+
+.counter_cow__jJHpc {
+    background-color: #FF9E9D;
+}
+
+.counter_unguessed__1mJ6z {
+    background-color: #999999;
+}
+.button_button__2DD-O {
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border:none;
+    font-size: 36px;
+    outline: none;
+    cursor: pointer;
+    background-color: #DAD8A7;
+    padding: 0 8px;
+}
+
+.button_button__2DD-O:hover{
+    background-color: #9c9a74;
+ }
+
+.button_button__2DD-O:active{
+    background-color: #9c8d6d;
+}
+.square_square-wrapper__15gBM {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: inset 1px -1px #40403b;
+}
+
+.square_guess__35jnG {
+    background-color: #DAD8A7;
+}
+
+.square_win__2usax {
+    background-color: #7FC7AF;
+}
+
+.square_lose__1t0JJ {
+    background-color: #FF3D7F;
+}
+.square_square-digit__2wmxx {
+    height: 80%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    color: #282c34;
+    padding: 16px;
+}
+.code-blocks_blocks__1KZ2i {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 320px;
+}
+.final-text_final__1g8kv {
+    padding: 16px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+.input_input-guess__23QUa{
+    width: 20px;
+    height: 28px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: ivory;
+    font-size: 36px;
+    padding: 16px 20px 16px 20px;
+    border: none;
+}
+.row_row__1JNXf {
+    width: 420px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+/*# sourceMappingURL=main.e7c2175b.chunk.css.map*/
