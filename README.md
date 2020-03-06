@@ -8,6 +8,8 @@ Refresh page to start another game.<br />
 
 [Live Demo](https://bulls-and-cows-react.herokuapp.com)
 
+[StoryBook](https://elvensmile.github.io/BullsCows/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
