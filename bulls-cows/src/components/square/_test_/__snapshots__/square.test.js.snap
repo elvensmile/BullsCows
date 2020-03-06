@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Square component renders correctly 1`] = `
+<div
+  className="square-wrapper win"
+>
+  <div
+    className="square-digit"
+  >
+    <p>
+      Oh, sweet child of mine!
+    </p>
+  </div>
+</div>
+`;

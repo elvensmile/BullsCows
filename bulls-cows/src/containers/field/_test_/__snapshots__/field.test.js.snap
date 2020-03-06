@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Field container renders correctly 1`] = `
+<div
+  className="field"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="blocks"
+    >
+      <input
+        autocomplete="off"
+        className="input-guess"
+        maxLength={1}
+        name="0"
+        onChange={[Function]}
+        value=""
+      />
+      <input
+        autocomplete="off"
+        className="input-guess"
+        maxLength={1}
+        name="1"
+        onChange={[Function]}
+        value=""
+      />
+      <input
+        autocomplete="off"
+        className="input-guess"
+        maxLength={1}
+        name="2"
+        onChange={[Function]}
+        value=""
+      />
+      <input
+        autocomplete="off"
+        className="input-guess"
+        maxLength={1}
+        name="3"
+        onChange={[Function]}
+        value=""
+      />
+    </div>
+    <button
+      className="button"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      ⏎
+    </button>
+  </div>
+</div>
+`;

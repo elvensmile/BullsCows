@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blocks component renders correctly 1`] = `
+<div
+  className="blocks"
+>
+  <div
+    className="square-wrapper win"
+  >
+    <div
+      className="square-digit"
+    >
+      4
+    </div>
+  </div>
+  <div
+    className="square-wrapper win"
+  >
+    <div
+      className="square-digit"
+    >
+      6
+    </div>
+  </div>
+  <div
+    className="square-wrapper win"
+  >
+    <div
+      className="square-digit"
+    >
+      7
+    </div>
+  </div>
+  <div
+    className="square-wrapper win"
+  >
+    <div
+      className="square-digit"
+    >
+      3
+    </div>
+  </div>
+</div>
+`;

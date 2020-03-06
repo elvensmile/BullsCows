@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Row component renders correctly 1`] = `
+<div
+  className="row"
+>
+  <p>
+    Oh, sweet child of mine!
+  </p>
+</div>
+`;

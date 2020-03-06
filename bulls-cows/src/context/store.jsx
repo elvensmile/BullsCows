@@ -19,7 +19,7 @@ const StateProvider = ( { children } ) => {
             case 'lose':
                 return {...state, stage: STAGES.lose, attempts: action.attempts}
             default:
-                throw new Error()
+                return initialState
         }
     }, initialState)
 

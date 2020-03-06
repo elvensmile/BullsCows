@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter component renders correctly 1`] = `
+<div
+  className="counter-wrapper"
+>
+  <div
+    className="circle bull"
+  />
+  <div
+    className="circle bull"
+  />
+  <div
+    className="circle cow"
+  />
+  <div
+    className="circle unguessed"
+  />
+</div>
+`;
+
+exports[`Counter component renders correctly 2`] = `
+<div
+  className="counter-wrapper"
+>
+  <div
+    className="circle bull"
+  />
+  <div
+    className="circle bull"
+  />
+  <div
+    className="circle bull"
+  />
+  <div
+    className="circle bull"
+  />
+</div>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Final Text component renders correctly 1`] = `
+<div
+  className="final"
+>
+  <h3>
+    Ура! Код угадан!
+  </h3>
+  <h3>
+    Итоговое количество попыток: 
+    7
+  </h3>
+</div>
+`;

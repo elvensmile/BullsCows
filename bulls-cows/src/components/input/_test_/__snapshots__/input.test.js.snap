@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component changes properly 1`] = `
+<input
+  autocomplete="off"
+  className="input-guess"
+  maxLength={1}
+  name={0}
+  onChange={[Function]}
+  value={5}
+/>
+`;
+
+exports[`Input component changes properly 2`] = `
+<input
+  autocomplete="off"
+  className="input-guess"
+  maxLength={1}
+  name={0}
+  onChange={[Function]}
+  value={5}
+/>
+`;
+
+exports[`Input component renders correctly 1`] = `
+<input
+  autocomplete="off"
+  className="input-guess"
+  maxLength={1}
+  name={0}
+  onChange={[Function]}
+  value={5}
+/>
+`;
